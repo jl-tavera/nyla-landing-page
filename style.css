@@ -21,8 +21,9 @@ h1 {
 
 .hero-title {
     color: white;
-    font-size: 5rem;
+    font-size: 10vw;
     text-align: center;
+    margin-bottom: -2vh;
     padding-top: 5%;
     font-family: "Erica One", sans-serif;
     font-weight: 400;
@@ -31,10 +32,21 @@ h1 {
 
 .hero-title2 {
     color: white;
-    font-size: 5rem;
-    margin-top: -2rem;
+    font-size: 10vw;
+    margin-top: -2vh;
     text-align: center;
     font-family: "Erica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero p {
+    color: white;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
