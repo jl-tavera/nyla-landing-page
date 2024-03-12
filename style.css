@@ -27,7 +27,7 @@
     font-style: normal;
   }
 
-/* HERO  */
+/* HERO SECTION */
 
 .hero {
     background-image: linear-gradient(to bottom, #022863, #B3D2DA);
@@ -81,7 +81,7 @@
 }
 
 
-/* Found */
+/* FOUND SECTION */
 
 .found {
     background-color: white;
@@ -120,7 +120,7 @@
     font-style: normal;
 }
 
-/* Help */
+/* HELP SECTION */
 
 
 .help {
@@ -150,11 +150,11 @@
     font-style: normal;
 }
 
-/* Donate */
+/* DONATE SECTION */
 
 .donate {
     background-color: white;
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     padding: -3vh;
 }
@@ -162,7 +162,7 @@
 .donate-title {
     color: var(--main-blue-color);
     font-size: 7vw;
-    margin-top: 15vh;
+    margin-top: 10vh;
     text-align: center;
     font-family: "Erica One", sans-serif;
     font-weight: 400;
@@ -178,4 +178,16 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--main-blue-color);
+    height: 10vh;
+    width: 100%;
+    padding: -5vh;
+    bottom: 0;
+    right: 0;
+    position: relative;
 }
