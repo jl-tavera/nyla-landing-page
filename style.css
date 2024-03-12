@@ -1,10 +1,47 @@
 
+/* MAIN STYLE */
+
 :root {
     /* Main colors */
     --main-blue-color: #022863; /* Main blue color */
     --light-blue-color: #B3D2DA; /* Secondary color (Gray) */
 
   }
+
+h1 {
+    text-align: center;
+    font-family: "Erica One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+  }
+
+p, ol {
+    font-size: 1.15rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.section {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+
+.custom-btn {
+    margin-top: 1vh;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: var(--main-blue-color); 
+    color: #ffffff; /* Text color */
+    border-color: var(--main-blue-color); 
+    border-radius: 0.6rem;
+}
+
 
 /* NAVBAR */
 
@@ -27,57 +64,32 @@
     font-style: normal;
   }
 
+
 /* HERO SECTION */
 
 .hero {
     background-image: linear-gradient(to bottom, #022863, #B3D2DA);
-    height: 98vh;
-    width: 100%;
-    padding: 0;
 }
 
 .hero-title {
     color: white;
     font-size: 10.8vw;
-    text-align: center;
     margin-bottom: -3vh;
-    font-family: "Erica One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 .hero-title2 {
     color: white;
     font-size: 8.3vw;
     margin-top: -5vh;
-    text-align: center;
-    font-family: "Erica One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 .hero p {
     color: white;
     padding-left: 25vw;
     padding-right: 25vw;
-    font-size: 1.15rem;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.hero-btn {
-    margin-top: 1vh;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    font-size: 1.2rem;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    background-color: var(--main-blue-color); 
-    color: #ffffff; /* Text color */
-    border-color: var(--main-blue-color); 
-    border-radius: 0.6rem;
 }
 
 
@@ -93,31 +105,22 @@
 .found-title {
     color: var(--main-blue-color);
     font-size: 6vw;
-    text-align: center;
     margin-bottom: -3vh;
     margin-top: 5vh;
-    font-family: "Erica One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 .found-title2 {
     color: var(--main-blue-color);
     font-size: 5.2vw;
-    text-align: center;
-    font-family: "Erica One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 .found p {
     color: var(--main-blue-color);
-    font-size: 1.15rem;
     padding-top: 3vh;
     text-align: justify;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 /* HELP SECTION */
@@ -125,29 +128,20 @@
 
 .help {
     background-color: var(--main-blue-color);
-    height: 100vh;
-    width: 100%;
-    padding: -3vh;
 }
 
 .help-title {
     color: white;
     padding-top: 20vh;
     font-size: 5vw;
-    text-align: center;
-    font-family: "Erica One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 .help p, ol {
     color: white;
-    font-size: 1.15rem;
     padding-top: 3vh;
     text-align: justify;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
 /* DONATE SECTION */
@@ -155,29 +149,20 @@
 .donate {
     background-color: white;
     height: 75vh;
-    width: 100%;
-    padding: -3vh;
+
 }
 
 .donate-title {
     color: var(--main-blue-color);
     font-size: 7vw;
     margin-top: 10vh;
-    text-align: center;
-    font-family: "Erica One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .donate p {
     color: var(--main-blue-color);
     padding-left: 20vw;
     padding-right: 20vw;
-    font-size: 1.15rem;
     text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 /* FOOTER */
