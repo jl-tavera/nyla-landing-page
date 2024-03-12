@@ -1,17 +1,33 @@
 
-h1 {
+:root {
+    /* Main colors */
+    --main-blue-color: #022863; /* Main blue color */
+    --light-blue-color: #B3D2DA; /* Secondary color (Gray) */
+
+  }
+
+/* NAVBAR */
+
+.main-nav-item {
+    margin-right: 5vw; /* Adjust the value to increase or decrease the space */
+    margin-left: 5vw; /* Adjust the value to increase or decrease the space */
+  }
+
+.navbar-nav .nav-link {
+    color: white !important;
     font-family: "Erica One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+    font-weight: 400;
+    font-style: normal;
+  }
 
-.erica {
-  font-family: "Erica One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+.navbar-nav .nav-link:hover {
+    color: lightgray !important; 
+    font-family: "Erica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-/* Hero  */
+/* HERO  */
 
 .hero {
     background-image: linear-gradient(to bottom, #022863, #B3D2DA);
@@ -21,10 +37,9 @@ h1 {
 
 .hero-title {
     color: white;
-    font-size: 10vw;
+    font-size: 10.8vw;
     text-align: center;
-    margin-bottom: -2vh;
-    padding-top: 5%;
+    margin-bottom: -3vh;
     font-family: "Erica One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -32,8 +47,8 @@ h1 {
 
 .hero-title2 {
     color: white;
-    font-size: 10vw;
-    margin-top: -2vh;
+    font-size: 8.3vw;
+    margin-top: -5vh;
     text-align: center;
     font-family: "Erica One", sans-serif;
     font-weight: 400;
@@ -42,11 +57,24 @@ h1 {
 
 .hero p {
     color: white;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    font-size: 1rem;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    font-size: 1.15rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+.hero-btn {
+    margin-top: 1vh;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: var(--main-blue-color); 
+    color: #ffffff; /* Text color */
+    border-color: var(--main-blue-color); 
+    border-radius: 0.6rem;
 }
