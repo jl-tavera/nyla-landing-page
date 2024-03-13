@@ -97,6 +97,14 @@ p, ol {
 }
 
 
+.hero-image {
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    height: 50vh ; 
+    overflow: hidden;
+}
+
 /* FOUND SECTION */
 
 .found {
@@ -104,6 +112,14 @@ p, ol {
     height: 100vh;
     width: 100%;
     padding: -3vh;
+}
+
+.found img {
+    position: relative; 
+    top: 0; 
+    right: 0; 
+    width: 100% ; 
+    overflow: hidden;
 }
 
 .found-title {
@@ -127,6 +143,11 @@ p, ol {
 
 }
 
+.found-image {
+    height: 70vh;
+    overflow: hidden;
+}
+
 /* HELP SECTION */
 
 
@@ -148,6 +169,12 @@ p, ol {
 
 }
 
+.help-image {
+    height: 75vh;
+    overflow: hidden;
+    padding-top: 20vh;
+}
+
 /* DONATE SECTION */
 
 .donate {
@@ -167,6 +194,13 @@ p, ol {
     padding-left: 20vw;
     padding-right: 20vw;
     text-align: center;
+}
+
+.paws-image {
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+    overflow: hidden;
 }
 
 /* FOOTER */
@@ -205,23 +239,101 @@ p, ol {
 
 
     .hero-title {
-        color: white;
         font-size: 20vw;
     
     }
     
     .hero-title2 {
-        color: white;
         font-size: 15.4vw;
         margin-top: 1vh;
     
     }
     
     .hero p {
-        color: white;
         padding:1vh 8vw;
         text-align: center;
     }
+
+    /* FOUND SECTION */
+
+    .found {
+        height: 110vh;
+    }
+    
+    .found-title {
+        font-size: 15vw;
+        margin-top: 2vh;
+    
+    }
+    
+    .found-title2 {
+        margin-top: 0.5rem;
+        font-size: 12.8vw;
+    
+    }
+    
+    .found p {
+        padding: 1.5rem 4vw;
+        text-align: justify;
+    
+    }
+
+    .found-image {
+        margin-top: -10vh;
+        width: 50vw;
+    }
+
+    /* HELP SECTION */
+
+    .help {
+        height: 130vh;
+    }
+
+    .help-title {
+        margin-top: -20vh;
+        font-size: 12vw;
+    
+    }
+    
+    .help p, ol {
+        padding: 1.5rem 4vw;
+    
+    }
+
+    .help-image {
+        width: 90vw;
+        margin-top: -20vh;
+    }
+
+    .flex-container {
+        flex-direction: row; /* Display flex items horizontally on medium and larger screens */
+      }
+
+    .flex-item-right {
+        order: 1; /* Change the order of the right flex item to be displayed at the bottom */
+      }
+
+    /* DONATE SECTION */
+
+    .donate {
+        height: 72vh;
+    
+    }
+    
+    .donate-title {
+        margin-top: 5vh;
+        font-size: 12vw;
+
+    }
+    
+    .donate p {
+        color: var(--main-blue-color);
+        text-align: center;
+        padding: 1.5rem 4vw;
+    }
+
+
+
   }
 
   /* Media query for screens between 768px and 991px (e.g., tablets) */
