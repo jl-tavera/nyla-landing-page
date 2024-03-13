@@ -3,8 +3,8 @@
 
 :root {
     /* Main colors */
-    --main-blue-color: #022863; /* Main blue color */
-    --light-blue-color: #B3D2DA; /* Secondary color (Gray) */
+    --main-blue-color: #022863; 
+    --light-blue-color: #B3D2DA; 
 
   }
 
@@ -37,7 +37,7 @@ p, ol {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     background-color: var(--main-blue-color); 
-    color: #ffffff; /* Text color */
+    color: #ffffff; 
     border-color: var(--main-blue-color); 
     border-radius: 0.6rem;
 }
@@ -46,8 +46,12 @@ p, ol {
 /* NAVBAR */
 
 .main-nav-item {
-    margin-right: 5vw; /* Adjust the value to increase or decrease the space */
-    margin-left: 5vw; /* Adjust the value to increase or decrease the space */
+    margin-right: 5vw; 
+    margin-left: 5vw; 
+  }
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Change to your desired color */
   }
 
 .navbar-nav .nav-link {
@@ -148,7 +152,7 @@ p, ol {
 
 .donate {
     background-color: white;
-    height: 75vh;
+    height: 72vh;
 
 }
 
@@ -171,8 +175,89 @@ p, ol {
     background-color: var(--main-blue-color);
     height: 10vh;
     width: 100%;
-    padding: -5vh;
-    bottom: 0;
-    right: 0;
-    position: relative;
+ 
 }
+
+.social-icons {
+    padding-top: 3vh;
+    text-align: center;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin:0 1rem;
+    font-size: 1.8rem;
+  }
+
+  /* MEDIA QUERY */
+
+
+  @media (max-width: 767px) {
+
+    /* NAVBAR */
+
+    .main-nav-item {
+        margin: 0;
+      }
+
+    /* HERO SECTION */
+
+
+    .hero-title {
+        color: white;
+        font-size: 20vw;
+    
+    }
+    
+    .hero-title2 {
+        color: white;
+        font-size: 15.4vw;
+        margin-top: 1vh;
+    
+    }
+    
+    .hero p {
+        color: white;
+        padding:1vh 8vw;
+        text-align: center;
+    }
+  }
+
+  /* Media query for screens between 768px and 991px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+  /* NAVBAR */
+
+  .main-nav-item {
+    margin: 0;
+  }
+
+/* HERO SECTION */
+
+
+.hero-title {
+    color: white;
+    font-size: 20vw;
+
+}
+
+.hero-title2 {
+    color: white;
+    font-size: 15.4vw;
+    margin-top: -2vh;
+
+}
+
+.hero p {
+    color: white;
+    padding:1vh 8vw;
+    text-align: center;
+}
+
+  }
+
+  /* Media query for screens larger than 1200px (e.g., desktops) */
+  @media (min-width: 1200px) {
+
+  }
