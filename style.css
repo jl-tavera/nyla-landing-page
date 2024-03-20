@@ -101,7 +101,7 @@ p, ol {
     position: absolute; 
     bottom: 0; 
     right: 0; 
-    height: 50vh ; 
+    width: 100%;
     overflow: hidden;
 }
 
@@ -109,7 +109,7 @@ p, ol {
 
 .found {
     background-color: white;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     padding: -3vh;
 }
@@ -179,7 +179,7 @@ p, ol {
 
 .donate {
     background-color: white;
-    height: 72vh;
+    height: 90vh;
 
 }
 
